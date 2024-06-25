@@ -34,8 +34,8 @@ along with HLHDF.  If not, see <http://www.gnu.org/licenses/>.
 /** See arrayobject.h for information on variable */
 #define NO_IMPORT_ARRAY
 #endif
-/* kai: disable deprecation warning */
-#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+/* kai: disable deprecation warning 
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION */
 #include <arrayobject.h>
 
 #endif
