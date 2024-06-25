@@ -29,6 +29,8 @@ along with HLHDF.  If not, see <http://www.gnu.org/licenses/>.
  * correctly imported.
  */
 #define HLHDF_PYMODULE_WITH_IMPORT_ARRAY
+/* kai: disable deprecation warning */
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 #include "pyhlhdf_common.h"  /* this includes arrayobject.h */
 #include "hlhdf.h"
 #include "hlhdf_alloc.h"
